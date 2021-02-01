@@ -1,6 +1,6 @@
 {
   "name": "onne-ui",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "main": "./dist/onne-ui.common.js",
   "files": [
