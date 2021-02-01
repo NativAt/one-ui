@@ -1,8 +1,8 @@
 {
   "name": "onne-ui",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "private": false,
-  "main": "dist/one-ui.umd.min.js",
+  "main": "./dist/one-ui.common.js",
   "files": [
     "dist/*",
     "src/*",
@@ -14,7 +14,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name one-ui ./src/main.js",
+    "build-bundle": "vue-cli-service build --target lib --name onne-ui ./src/main.js",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
